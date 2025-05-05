@@ -4,13 +4,13 @@ A full-stack cybersecurity project designed to detect phishing emails using an a
 
 ---
 
-## 📌 Project Stages
+##  Project Stages
 
 This repository showcases the complete lifecycle of the invention — from classical models to adversarial robustness and deployment.
 
 ---
 
-### 🔹 1. Foundation: Classical Machine Learning
+###  1. Foundation: Classical Machine Learning
 
 Before entering the deep learning space, the project began with classical ML approaches to phishing email detection.
 
@@ -23,7 +23,7 @@ Before entering the deep learning space, the project began with classical ML app
 
 ---
 
-### 🔹 2. Transition to Deep Learning
+###  2. Transition to Deep Learning
 
 Moving from traditional ML to Hugging Face's DistilBERT for more context-aware phishing detection.
 
@@ -36,7 +36,7 @@ Moving from traditional ML to Hugging Face's DistilBERT for more context-aware p
 
 ---
 
-### 🔹 3. Adversarial Robustness: The Invention
+###  3. Adversarial Robustness: The Invention
 
 This stage represents the core invention — a model trained to resist adversarial phishing attacks.
 
@@ -51,7 +51,7 @@ This stage represents the core invention — a model trained to resist adversari
 
 ---
 
-### 🔹 4. Deployment: Gradio Web App
+###  4. Deployment: Gradio Web App
 
 The invention is deployed as a real-time Gradio app with live input-output capabilities.
 
@@ -63,11 +63,11 @@ The invention is deployed as a real-time Gradio app with live input-output capab
 ✅ Model hosted via Hugging Face
 
 🔗 **Live Demo:**  
-👉 [Try the phishing detector app](https://huggingface.co/spaces/apostleflex/jah-ak-phishing-detector)
+ [Try the phishing detector app](https://huggingface.co/spaces/apostleflex/jah-ak-phishing-detector)
 
 ---
 
-## 📊 Training Logs and Evaluation
+##  Training Logs and Evaluation
 
 All experiments, model training, and adversarial evaluation were tracked on Weights & Biases.
 
@@ -75,12 +75,12 @@ All experiments, model training, and adversarial evaluation were tracked on Weig
 
 ---
 
-## 🗂️ Repo Structure
+## 🗂 Repo Structure
 ├── foundation_ml_models/ │ ├── phishing_baseline_svm.ipynb │ └── model_comparison_classical_deep_phishing.ipynb │ ├── deep_learning_models/ │ ├── bert_phishing_zefangliu_preprocessed.ipynb │ └── bert_phishing_detection_huggingface.ipynb │ ├── adversarial_training/ │ ├── adversarial_distilbert_weighted_training.ipynb │ ├── adversarial_retraining_with_augmented_data.ipynb │ └── robust_distilbert_phishing_detector_FINAL_optimized.ipynb │ ├── deployment/ │ ├── app.py │ └── movesmodeltohugging.ipynb │ ├── data/ │ ├── sample_adversarial_emails.csv │ └── phishing_legitimate_sample.csv │ ├── requirements.txt └── README.md
 
 ---
 
-## 💡 Tech Stack
+##  Tech Stack
 
 - Python, Pandas, Scikit-Learn  
 - Hugging Face Transformers (DistilBERT)  
@@ -90,10 +90,10 @@ All experiments, model training, and adversarial evaluation were tracked on Weig
 
 ---
 
-## 🔒 Access & Collaboration
+##  Access & Collaboration
 
 This project is currently under **private review**.  
-📩 Contact the author directly for collaboration, industry use, or access to full internal assets.
+ Contact the author directly for collaboration, industry use, or access to full internal assets.
 
 ---
 
