@@ -1,40 +1,105 @@
-# Adversarial-Robust-Phishing-Detector
+# Adversarial-Robust Phishing Email Detector
 
-An advanced phishing email detection system using DistilBERT, adversarial training, and real-time inference with Gradio.
-
-## Features
-- Adversarial training
-- Robustness against evasion attacks
-- Real-time demo with Gradio
-
-## Setup
-```bash
-git clone https://github.com/Mookpets/Adversarial-Robust-Phishing-Detector.git
-cd Adversarial-Robust-Phishing-Detector
-pip install -r requirements.txt
-```
-
-## Launch App
-```bash
-cd app
-python app.py
-```
-
-## Author
-Stephen Koomson (Mookpets)
-
-## Training logs & Evaluation
-##  Training Logs and Adversarial Evaluation
-
-All model training, validation, and adversarial robustness experiments were tracked and logged using [Weights & Biases (W&B)](https://wandb.ai/stephenkoomsonbiz-kingston-university).
-
- **View Full Training Metrics and Robustness Evaluations:**  
-[![Weights & Biases Dashboard](https://img.shields.io/badge/W%26B-View_Project-orange?logo=weightsandbiases)](https://wandb.ai/stephenkoomsonbiz-kingston-university)
+A full-stack cybersecurity project designed to detect phishing emails using an adversarially robust DistilBERT model. This invention combines classical ML, deep learning, adversarial defense, and real-time deployment through a Gradio web interface.
 
 ---
 
-> The W&B dashboard includes:
-> - Training/validation loss and accuracy
-> - Adversarial attack experiments
-> - Model robustness evaluations
-> - Fine-tuning and defense logs
+## 📌 Project Stages
+
+This repository showcases the complete lifecycle of the invention — from classical models to adversarial robustness and deployment.
+
+---
+
+### 🔹 1. Foundation: Classical Machine Learning
+
+Before entering the deep learning space, the project began with classical ML approaches to phishing email detection.
+
+**Folder:** `foundation_ml_models/`  
+- `phishing_baseline_svm.ipynb`  
+- `model_comparison_classical_deep_phishing.ipynb`
+
+✅ Models used: SVM, Logistic Regression, Naive Bayes, Decision Trees, KNN  
+✅ Baseline performance comparison
+
+---
+
+### 🔹 2. Transition to Deep Learning
+
+Moving from traditional ML to Hugging Face's DistilBERT for more context-aware phishing detection.
+
+**Folder:** `deep_learning_models/`  
+- `bert_phishing_zefangliu_preprocessed.ipynb`  
+- `bert_phishing_detection_huggingface.ipynb`
+
+✅ Tokenization & fine-tuning of `distilbert-base-uncased`  
+✅ Significant improvement over traditional ML
+
+---
+
+### 🔹 3. Adversarial Robustness: The Invention
+
+This stage represents the core invention — a model trained to resist adversarial phishing attacks.
+
+**Folder:** `adversarial_training/`  
+- `adversarial_distilbert_weighted_training.ipynb`  
+- `adversarial_retraining_with_augmented_data.ipynb`  
+- `robust_distilbert_phishing_detector_FINAL_optimized.ipynb`
+
+✅ Weighted loss to address class imbalance  
+✅ Adversarial retraining using crafted phishing variants  
+✅ Final model demonstrates robustness under evasion attempts
+
+---
+
+### 🔹 4. Deployment: Gradio Web App
+
+The invention is deployed as a real-time Gradio app with live input-output capabilities.
+
+**Folder:** `deployment/`  
+- `app.py`  
+- `movesmodeltohugging.ipynb`
+
+✅ Real-time email classification  
+✅ Model hosted via Hugging Face
+
+🔗 **Live Demo:**  
+👉 [Try the phishing detector app](https://huggingface.co/spaces/apostleflex/jah-ak-phishing-detector)
+
+---
+
+## 📊 Training Logs and Evaluation
+
+All experiments, model training, and adversarial evaluation were tracked on Weights & Biases.
+
+🔗 [View W&B training run](https://wandb.ai/akataship-models/adversarial-phishing-defense-weighted/runs/7mvmr5u1/overview)
+
+---
+
+## 🗂️ Repo Structure
+
+
+---
+
+## 💡 Tech Stack
+
+- Python, Pandas, Scikit-Learn  
+- Hugging Face Transformers (DistilBERT)  
+- Gradio for web deployment  
+- Weights & Biases for experiment tracking  
+- Hugging Face Spaces for public demo hosting
+
+---
+
+## 🔒 Access & Collaboration
+
+This project is currently under **private review**.  
+📩 Contact the author directly for collaboration, industry use, or access to full internal assets.
+
+---
+
+## 👤 Author
+
+**Stephen Koomson**  
+GitHub: [Mookpets](https://github.com/Mookpets)  
+W&B: [akataship](https://wandb.ai/akataship)  
+Hugging Face: [apostleflex](https://huggingface.co/apostleflex)
