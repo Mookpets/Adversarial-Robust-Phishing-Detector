@@ -97,9 +97,9 @@ This project is currently under **private review**.
 
 ---
 
-## 👤 Author
+## 👤 Authors
 
-**Stephen Koomson**  
+**Dr S. Yannis & Stephen Koomson**  
 GitHub: [Mookpets](https://github.com/Mookpets)  
 W&B: [akataship](https://wandb.ai/akataship)  
 Hugging Face: [apostleflex](https://huggingface.co/apostleflex)
