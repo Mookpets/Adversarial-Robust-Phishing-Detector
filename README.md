@@ -76,7 +76,7 @@ All experiments, model training, and adversarial evaluation were tracked on Weig
 ---
 
 ## 🗂️ Repo Structure
-
+├── foundation_ml_models/ │ ├── phishing_baseline_svm.ipynb │ └── model_comparison_classical_deep_phishing.ipynb │ ├── deep_learning_models/ │ ├── bert_phishing_zefangliu_preprocessed.ipynb │ └── bert_phishing_detection_huggingface.ipynb │ ├── adversarial_training/ │ ├── adversarial_distilbert_weighted_training.ipynb │ ├── adversarial_retraining_with_augmented_data.ipynb │ └── robust_distilbert_phishing_detector_FINAL_optimized.ipynb │ ├── deployment/ │ ├── app.py │ └── movesmodeltohugging.ipynb │ ├── data/ │ ├── sample_adversarial_emails.csv │ └── phishing_legitimate_sample.csv │ ├── requirements.txt └── README.md
 
 ---
 
