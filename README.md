@@ -18,8 +18,8 @@ Before entering the deep learning space, the project began with classical ML app
 - `phishing_baseline_svm.ipynb`  
 - `model_comparison_classical_deep_phishing.ipynb`
 
-✅ Models used: SVM, Logistic Regression, Naive Bayes, Decision Trees, KNN  
-✅ Baseline performance comparison
+* Models used: SVM, Logistic Regression, Naive Bayes, Decision Trees, KNN  
+* Baseline performance comparison
 
 ---
 
@@ -31,8 +31,8 @@ Moving from traditional ML to Hugging Face's DistilBERT for more context-aware p
 - `bert_phishing_zefangliu_preprocessed.ipynb`  
 - `bert_phishing_detection_huggingface.ipynb`
 
-✅ Tokenization & fine-tuning of `distilbert-base-uncased`  
-✅ Significant improvement over traditional ML
+* Tokenization & fine-tuning of `distilbert-base-uncased`  
+* Significant improvement over traditional ML
 
 ---
 
@@ -45,9 +45,9 @@ This stage represents the core invention — a model trained to resist adversari
 - `adversarial_retraining_with_augmented_data.ipynb`  
 - `robust_distilbert_phishing_detector_FINAL_optimized.ipynb`
 
-✅ Weighted loss to address class imbalance  
-✅ Adversarial retraining using crafted phishing variants  
-✅ Final model demonstrates robustness under evasion attempts
+* Weighted loss to address class imbalance  
+* Adversarial retraining using crafted phishing variants  
+* Final model demonstrates robustness under evasion attempts
 
 ---
 
@@ -59,8 +59,8 @@ The invention is deployed as a real-time Gradio app with live input-output capab
 - `app.py`  
 - `movesmodeltohugging.ipynb`
 
-✅ Real-time email classification  
-✅ Model hosted via Hugging Face
+* Real-time email classification  
+* Model hosted via Hugging Face
 
 🔗 **Live Demo:**  
  [Try the phishing detector app](https://huggingface.co/spaces/apostleflex/jah-ak-phishing-detector)
